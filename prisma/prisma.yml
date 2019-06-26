@@ -1,0 +1,10 @@
+datamodel: datamodel.prisma
+endpoint: https://us1.prisma.sh/henrique-fiorini-e76a61/hackernews-graphql-js/dev
+
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
+
+hooks:
+  post-deploy:
+    - prisma generate
