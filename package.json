@@ -1,8 +1,7 @@
 {
-  "name": "hackernews-graphql-js",
+  "name": "hackernews-server",
   "version": "1.0.0",
   "main": "src/index.js",
-  "repository": "https://github.com/henriquefiorini/hackernews-graphql-js.git",
   "author": "Henrique Fiorini",
   "license": "MIT",
   "scripts": {
